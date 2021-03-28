@@ -1,6 +1,7 @@
 import re
 import csv
 
+
 class Person:
 
     file_name = "File_Directory.csv"
@@ -99,17 +100,5 @@ class Person:
         with open(Person.file_name, 'r') as inp:
             for row in csv.reader(inp):
                 lines.append(row)
+        # print(lines)
         return lines
-
-
-# if __name__ == '__main__':
-#     David = Person("David", "david@hotmail.com", 28, "Mexico")
-#     David.add_new_register()
-#     Mario = Person("Mario", "mario@hotmail.com", 27, "Mexico")
-#     Mario.add_new_register()
-#     Luis = Person("Luis", "Luis@hotmail.com", 23, "Mexico")
-#     Luis.add_new_register()
-#     print(Person.look_for("mario@hotmail.com"))
-#     Person.all_records()
-#     Mario.delete_record()
-#     print(Person.all_records())
