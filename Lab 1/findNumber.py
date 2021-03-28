@@ -1,11 +1,11 @@
-#David Urzua A00354893
-#imports
+# David Urzua A00354893
+
 import random
-#limits for random generation number
+# limits for random generation number
 lowerLimit = 1
 upperLimit = 30
 
-#variables initialization for game
+# variables initialization for game
 number = random.randint(lowerLimit, upperLimit)
 exitFlag = ""
 userNumber = 0
@@ -24,8 +24,8 @@ while exitFlag != "exit":
     else:
         print("Exactly! the number is: {}".format(number))
         print("tries: {}".format(count))
-        #write the attempts in file
+        # write the attempts in file
         with open("GuessingSteps.txt", "w") as GuessingSteps_file:
-            GuessingSteps_file.write("The number of attempts was: {}".format(str(count)))
+            GuessingSteps_file.write("Number of attempts: {}".format(str(count)))
         break
     exitFlag = (input("Type exit to terminate  -  enter to continue\n")).lower()
