@@ -22,6 +22,6 @@ def readFile(fileName):
     return sorted_wordFreq
 
 
-sorted_Dict = readFile(args.FileName)
+sorted_dict = readFile(args.FileName)
 word = (input("Type the word you want to find\n"))
-print("The word: '{}' appeard {} times".format(word, sorted_Dict.get(word, 0)))
+print("The word: '{}' appeard {} times".format(word, sorted_dict.get(word, 0)))
