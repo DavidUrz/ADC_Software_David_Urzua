@@ -1,0 +1,141 @@
+Messages
+========
+
+ADC_Software_David_Urzua\Lab 1\findWords.py:
+    L25:2 None: pep8 - N816
+    variable 'sorted_Dict' in global scope should not be mixedCase
+
+ADC_Software_David_Urzua\Lab 3\Lab_3_2_3.py:
+    L50:32 None: pep8 - W605
+    invalid escape sequence '\.'
+
+ADC_Software_David_Urzua\Lab 3\Lab_3_2_3.py:
+    L50:52 None: pep8 - W605
+    invalid escape sequence '\w'
+
+ADC_Software_David_Urzua\Lab 3\Lab_3_2_3.py:
+    L50:58 None: pep8 - W605
+    invalid escape sequence '\w'
+
+Lab_3_2_3 (ADC_Software_David_Urzua\Lab 3\Lab_3_2_3.py):
+    L87:4 Person.look_for: pylint - inconsistent-return-statements
+    Either all return statements in a function should return an expression, or none of them should.
+
+ADC_Software_David_Urzua\Lab 1\findNumber.py:
+    L5:2 None: pep8 - N816
+    variable 'lowerLimit' in global scope should not be mixedCase
+
+ADC_Software_David_Urzua\Lab 1\findNumber.py:
+    L6:2 None: pep8 - N816
+    variable 'upperLimit' in global scope should not be mixedCase
+
+ADC_Software_David_Urzua\Lab 1\findNumber.py:
+    L10:2 None: pep8 - N816
+    variable 'exitFlag' in global scope should not be mixedCase
+
+ADC_Software_David_Urzua\Lab 1\findNumber.py:
+    L11:2 None: pep8 - N816
+    variable 'userNumber' in global scope should not be mixedCase
+
+ADC_Software_David_Urzua\Lab 1\findNumber.py:
+    L15:10 None: pep8 - N816
+    variable 'userNumber' in global scope should not be mixedCase
+
+ADC_Software_David_Urzua\Lab 1\findNumber.py:
+    L31:6 None: pep8 - N816
+    variable 'exitFlag' in global scope should not be mixedCase
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L31:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C8012810'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L32:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C2182809'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L33:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C0192830'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L34:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C1872038'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L35:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C1029380'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L36:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C1293087'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L37:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C1084894'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L38:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C4892900'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L39:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C8834971'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L40:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C9251887'
+
+Profit (ADC_Software_David_Urzua\Lab 2\Profit.py):
+    L41:10 None: pylint - undefined-variable
+    Undefined variable 'product_A2C9251865'
+
+convert2X (ADC_Software_David_Urzua\Lab 1\convert2X.py):
+    L5:8 convert2bin: pylint - no-else-return
+    Unnecessary "else" after "return"
+
+convert2X (ADC_Software_David_Urzua\Lab 1\convert2X.py):
+    L32:8 convert2hex: pylint - no-else-return
+    Unnecessary "else" after "return"
+
+Python_Failing (ADC_Software_David_Urzua\Lab 2\Python_Failing.py):
+    L3:- str_to_int: pylint - inconsistent-return-statements
+    Either all return statements in a function should return an expression, or none of them should.
+
+Python_Failing (ADC_Software_David_Urzua\Lab 2\Python_Failing.py):
+    L5:8 str_to_int: pylint - no-else-raise
+    Unnecessary "else" after "raise"
+
+Python_Failing (ADC_Software_David_Urzua\Lab 2\Python_Failing.py):
+    L17:16 str_to_int: pylint - no-else-return
+    Unnecessary "else" after "return"
+
+Python_Failing (ADC_Software_David_Urzua\Lab 2\Python_Failing.py):
+    L29:- int_to_str: pylint - inconsistent-return-statements
+    Either all return statements in a function should return an expression, or none of them should.
+
+Python_Failing (ADC_Software_David_Urzua\Lab 2\Python_Failing.py):
+    L31:8 int_to_str: pylint - no-else-raise
+    Unnecessary "else" after "raise"
+
+Python_Failing (ADC_Software_David_Urzua\Lab 2\Python_Failing.py):
+    L45:12 int_to_str: pylint - no-else-return
+    Unnecessary "else" after "return"
+
+Unittest_3_2_3 (ADC_Software_David_Urzua\Lab 3\Unittest_3_2_3.py):
+    L33:12 TestPersonClass.test_add_new_register_delete_record: pylint - pointless-statement
+    Statement seems to have no effect
+
+
+
+Check Information
+=================
+         Started: 2021-04-14 22:26:09.271464
+        Finished: 2021-04-14 22:26:12.572035
+      Time Taken: 3.30 seconds
+       Formatter: text
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 31
+
