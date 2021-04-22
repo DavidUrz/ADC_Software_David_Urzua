@@ -1,0 +1,7 @@
+root - INFO - This is the Class Person od Lab 3.2.3
+root - INFO - This is the method add_new_register
+root - INFO - This is the staticmethod all_records
+root - INFO - This is the staticmethod look_for
+root - INFO - This is the method delete_record
+root - ERROR - Exception ocurred
+NoneType: None
